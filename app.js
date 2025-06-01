@@ -3,7 +3,7 @@ const todoInput = document.getElementById('todoinput');
 const todoListUL = document.getElementById('todolist');
 
 let allTodos = getTodos();
-updateTodoList(); // 👈 Isso vai renderizar os todos ao carregar a página
+updateTodoList(); 
 console.log(allTodos);
 
 todoForm.addEventListener('submit', function(e){
